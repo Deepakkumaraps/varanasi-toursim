@@ -1,0 +1,260 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    /* background-color: lightskyblue; */
+    /* background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1000X650-5.jpg); */
+    background-image: url(./Manikarnika-Ghat-Varanasi-hd.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(70, 89, 195, 0.6);
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+nav .logo:hover {
+    font-size: 40px;
+    color: lawngreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+nav .menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+
+nav .menu a:hover {
+    color: red;
+
+}
+
+nav .menu a:first-child {
+    color: lawngreen;
+}
+nav .menu a:nth-child(2){
+    color: rgb(239, 102, 17);
+}
+
+.navbar {
+    margin-top: 15px;
+    height: auto;
+    /* background-color: aqua; */
+    /* background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1000X650-5.jpg); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+.navbar h2 {
+    width: 600px;
+    background-color: azure;
+    border-radius: 5px;
+    color: coral;
+
+}
+
+.navbar h2 span {
+    color: red;
+    font-weight: bold;
+}
+
+.navbar h2 sub {
+    font-size: 10px;
+    color: green;
+}
+
+.navbar:hover {
+    background-color: salmon;
+}
+
+.navbar h2:hover {
+    background-color: aqua;
+    color: #FF9933;
+    text-decoration-color: #FF9933;
+}
+
+
+.ab {
+    height: auto;
+    width: auto;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.ab h1 {
+    font-family: 'Bree Serif', serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.abc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.box {
+    height: 360px;
+    width: 270px;
+    border: 2px solid red;
+    padding: 15px 15px 1px 15px;
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+    transition: all 1s;
+    background-color: lightgray;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background-color: rgb(107, 106, 107);
+}
+
+.box img {
+    height: 180px;
+    width: inherit;
+    border-radius: 10px;
+}
+
+.box h3 {
+    background-color: whitesmoke;
+    color: saddlebrown;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.box p {
+    justify-content: center;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.box p span {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.box a {
+    font-weight: bold;
+    justify-content: center;
+    font-size: 15px;
+    background-color: aquamarine;
+    border: 1px red solid;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 320px) {
+    .box img {
+        display: grid;
+        height: 100px;
+        width: 50px;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .box {
+        width: 100px;
+        height: 600px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+}
+
+
+footer {
+    box-shadow: 5px 5px 10px 15px #5d2335;
+    padding: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 0px;
+}
+
+.link {
+    flex:1 1 30%;
+}
+
+.ul {
+    width: 40%;
+    margin: auto;
+}
+
+.ul li {
+    margin-bottom: 5px;
+    color: #5d2335;
+    list-style: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: #5d2335;
+    font-size: 10px;
+    background-color: lightskyblue;
+    padding: 3px;
+}
+
+.ul li a:hover {
+    color: red;
+    background-color: aqua;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.copyright{
+    font-size: 8px;
+}
+

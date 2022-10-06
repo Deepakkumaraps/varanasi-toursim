@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(170, 222, 170);
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(70, 89, 195, 0.6);
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+nav .logo:hover {
+    font-size: 40px;
+    color: lawngreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+nav .menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+
+nav .menu a:hover {
+    color: red;
+
+}
+
+nav .menu a:first-child {
+    color: lawngreen;
+}
+
+nav .menu a:nth-child(2) {
+    color: blue;
+}
+
+/* table */
+th,
+td {
+    border: 1px solid palevioletred;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    box-shadow: 1px 0px 5px 1px #5d2335;
+
+
+}
+
+button {
+    /* float: right; */
+    width: fit-content;
+    text-align: center;
+    margin-right: 5%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font: 15px bold;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+
+/* complete details */
+.completetripdetails {
+    width: 100%;
+    /* background-color: rgb(170, 222, 170); */
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.completetripdetails h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    padding: 10px 5px;
+    color: brown;
+}
+
+.tripbox,
+.day,
+.container {
+    width: 100%;
+    /* background-color: rgb(185, 248, 185); */
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    box-shadow: 1px 0px 5px 1px #5d2335;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px ;
+    text-align: center;
+
+}
+
+
+/* trip heading */
+.tripcotheading {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 23px;
+    padding: 10px 5px;
+
+
+}
+
+/* Details of all four days */
+
+.completedaybox {
+    width: 100%;
+    box-shadow: 1px 0px 5px 1px #5d2335;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.completedaybox h2 {
+    border: 1px solid brown;
+    padding: 10px 10px;
+    color: green;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+/* Contains routine of day */
+.routinebox {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.routinebox h3 {
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px 2px #5d2335;
+    color: white;
+    width: inherit;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.abc {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+
+.dayroutine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    height: 350px;
+    width: 250px;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 10px;
+    align-content: center;
+    border-radius: 15px;
+    transition: all 1s;
+    background-color: lightgray;
+    content: normal;
+    overflow: hidden;
+}
+
+.dayroutine h5 {
+
+    display: flex;
+    justify-content: center;
+    height: 11%;
+    width: 100%;
+    /* text-align: center; */
+    align-items: center;
+    padding: 3px;
+    font-size: 12px;
+    box-shadow: 1px 2px 5px 5px #5d2335;
+    border-radius: 15px;
+    text-align: center;
+}
+#upone{
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+img {
+    height: 150px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.tag {
+    border: 1px solid rgb(255, 0, 93);
+    border-radius: 5px;
+    background-color: rgb(217, 235, 240);
+    padding: 2px;
+    color: red;
+    width: fit-content;
+    font-size: 12px;
+}
+
+.hoteltag {
+    border: 2px solid rgb(137, 66, 33);
+    background-color: rgb(227, 234, 239);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+    color: blue;
+    font-weight: 500;
+}
+
+.routinedetails {
+    margin-top: 5px;
+}
+
+.routinedetails p {
+    font-size: 13px;
+    margin-bottom: 10px;
+
+}
+
+.routinedetails ul {
+    margin-top: 10px;
+
+}
+
+.routinedetails li {
+    font-size: 13px;
+}
+
+/* hide */
+#completedaybox1,
+#completedaybox2,
+#completedaybox3,
+#completedaybox4,#dayone,#daytwo,#daythree,#dayfour{
+    display: none;
+}
+
+.dayend {
+    margin: 5px;
+}
+
+
+/* inform for booking */
+.packageform {
+    box-shadow: 1px 2px 5px 2px #5d2335;
+    padding: 10px;
+
+}
+
+/* form */
+
+
+.booking {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 5px 2px #5d2335;
+    padding-bottom: 20px;
+
+}
+
+.booking .bookform {
+    padding: 10px;
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.booking .bookform .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: left;
+    padding: 30px;
+}
+
+.inputbox {
+    flex: 1 1 40%;
+}
+
+.booking .bookform .flex .inputbox input,
+select {
+    width: 90%;
+    padding: 2px;
+    font-size: 15px;
+    color: lightslategrey;
+    text-transform: none;
+    margin-top: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+
+.booking .bookform .flex .inputbox input:focus {
+    color: black;
+    background-color: lightseagreen;
+}
+
+.submit {
+    background-color: rgb(74, 69, 69);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(74, 69, 69);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: lightgreen;
+    box-shadow: 1px 2px 5px 2px #5d2335;
+
+    padding: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 0 20px;
+}
+
+.link {
+    flex: 1 1;
+
+}
+
+.ul {
+    width: auto;
+    text-align: center;
+}
+
+.ul li {
+    margin-bottom: 10px;
+    color: #5d2335;
+    list-style: none;
+
+}
+
+.ul li a {
+    text-decoration: none;
+    color: #5d2335;
+    font-size: 12px;
+    background-color: lightskyblue;
+
+
+}
+
+.ul li a:hover {
+    color: red;
+    background-color: aqua;
+    padding: 3px;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.desc{
+    margin-top: 30px;
+    width: 80%;
+    text-align: justify;
+    padding: 30px;
+    text-decoration: underline;
+    font-variant: initial;
+    box-shadow: 1px 2px 5px 2px #5d2335;
+    color: brown;
+
+}
+.copyright{
+    font-size: 10px;
+}

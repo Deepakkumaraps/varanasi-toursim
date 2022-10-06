@@ -1,0 +1,146 @@
+body {
+    /* background-color: lightskyblue; */
+    /* background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1000X650-5.jpg); */
+    background-image: url(./Manikarnika-Ghat-Varanasi-hd.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(70, 89, 195, 0.6);
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+nav .logo:hover {
+    font-size: 40px;
+    color: lawngreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+nav .menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+
+nav .menu a:hover {
+    color: red;
+
+}
+
+nav .menu a:first-child {
+    color: lawngreen;
+}
+nav .menu a:nth-child(2){
+    color: rgb(239, 102, 17);
+}
+
+
+
+
+h2{
+    color: red;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    /* grid-template-columns: max-content; */
+    
+}
+img{
+    height: 200px;
+    width: 300px;
+    border: 2px dotted green;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    box-shadow: 5px 5px 10px 15px #5d2335;
+    padding: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 0px;
+}
+
+.link {
+    flex:1 1 30%;
+}
+
+.ul {
+    width: 40%;
+    margin: auto;
+}
+
+.ul li {
+    margin-bottom: 5px;
+    color: #5d2335;
+    list-style: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: #5d2335;
+    font-size: 10px;
+    background-color: lightskyblue;
+    padding: 3px;
+}
+
+.ul li a:hover {
+    color: red;
+    background-color: aqua;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.copyright{
+    font-size: 8px;
+}

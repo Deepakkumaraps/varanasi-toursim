@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+
+            background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./Lordshiva.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: scroll;
+        }
+   nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(70, 89, 195, 0.3);
+    width: 90%;
+    margin: auto;
+    padding: 0px 20px;
+    height: 15vh;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+nav .logo {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+nav .logo:hover {
+    font-size: 30px;
+    color: lawngreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+nav .menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+
+}
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+nav .menu a:hover {
+    color: red;
+}
+nav .menu a:first-child {
+    color: lawngreen;
+}
+nav .menu a:nth-child(2){
+    color: blue;
+}
+nav .menu a:last-child{
+    color: red;
+}
+.intro{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(152, 213, 54, 0.6);
+    padding: 20px;
+    border-radius: 10px 10px 50% 50%; 
+}
+.form{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgba(152, 213, 54, 0.6);
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 10px;
+   
+    
+}
+form{
+    width: 90%;
+}
+label{
+    color: azure;
+}
+input{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+textarea{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+
+
+
+}
+#submit{
+    width: fit-content;
+    padding: 2px 10px;
+}
+
+
+
+footer {
+    box-shadow: 5px 5px 10px 15px #5d2335;
+    background-color: rgba(152, 213, 54, 0.6);
+
+    padding: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 0px;
+}
+
+.link {
+    flex:1 1 30%;
+}
+
+.ul {
+    width: 40%;
+    margin: auto;
+}
+
+.ul li {
+    margin-bottom: 5px;
+    color: #5d2335;
+    list-style: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: #5d2335;
+    font-size: 10px;
+    background-color: lightskyblue;
+    padding: 3px;
+}
+
+.ul li a:hover {
+    color: red;
+    background-color: aqua;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.copyright{
+    font-size: 8px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <nav>
+                <h1 class="logo"> KASHI </h1>
+                <div class="menu">
+                    <a href="./Index.html">Home</a>
+                    <a href="./tripPlan.html">Plan Your Trip</a>
+                    <a href="./user.html">Share your Glimps</a>
+                    <a href="./Gallery.html">Gallery</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="intro">
+            <p>Hey I am <strong>Deepak Kumar</strong> Creator of <Strong>Varanasi Tourism'website</Strong><div class="br">
+                I create this website to recognize our Tourism to glob, beacause everyone could know our culture, for what we are known for and our religious beliefs.
+            </div></p>
+        </div>
+        <div class="form">
+            <form action="">
+                <label for="">Name:</label><br><input type="text" name="name" id="name"><br>
+                <label for="">Email:</label><br><input type="email" name="email" id="email"><br>
+               
+             <label for="">Mob No:</label><br><input type="tel" name="mob" id="mob"><br>
+             <label for="">Your Feedback</label><br><textarea name="feedback" id="feedback" cols="25" rows="9"></textarea><br>
+             <input type="submit" value="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <footer>
+            
+        <div class="footer">
+          <div class="link">
+              <ul class="ul">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./user.html">Plan Your Trip</a></li>
+                  <li><a href="Gallery.html">Gallery</a></li>
+                  <li><a href="./contactus.html">Contact US</a></li>
+              </ul>
+          </div>
+          <div class="link">
+              <ul class="ul">
+                  <li><a href="">Ustad Bismillah Khan</a></li>
+                  <li><a href="">Sant Kabir Das</a></li>
+                  <li><a href="">Girja Devi</a></li>
+                  <li><a href="">Kishan Maharaj</a></li>
+              </ul>
+          </div>
+          <div class="link">
+              <ul class="ul">
+                  <li><a href="#">Ganga River</a></li>
+                  <li><a href="#">Subah-e-Banaras</a></li>
+                  <li><a href="#">Sarnath</a></li>
+                  <li><a href="#">Sant Ravidas Temple</a></li>
+              </ul>
+          </div>
+      </div>
+      <span class="copyright"> copyright@2022</span>
+      </footer>
+</body>
+</html>
